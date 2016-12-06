@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es2015.collection",
+      "es2015.promise",
+      "es5"
+    ],
+    "moduleResolution": "node"
+  },
+  "files": [
+    "src/base-logger.ts",
+    "src/console-logger.service.ts",
+    "src/index.ts",
+    "src/level.ts",
+    "src/logger.ts",
+    "custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
